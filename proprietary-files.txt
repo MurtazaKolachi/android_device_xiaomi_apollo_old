@@ -262,10 +262,8 @@ vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libxmi_hdr_checker.so
 vendor/lib64/libxmi_high_dynamic_range.so
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
-
-# Camera (postproc) - from LA.UM.9.14.r1-18400.02-LAHAINA.QSSI12.0
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so;DISABLE_CHECKELF|afeca01f1fc2619ddf1aada01d42735ab9efa682
 
 # Camera (camerax)
 vendor/lib64/libcamxexternalformatutils.so
@@ -1279,7 +1277,7 @@ vendor/bin/cnss-daemon
 vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
 
-# WiFi Display (system)
+# WiFi Display (system) - from munch-user 14 RKQ1.211001.001 OS1.0.5.0.ULMMIXM
 system/framework/WfdCommon.jar|08bf9850ac45396fe753e208c4d63ec43389dce2
 system_ext/bin/wfdservice|400d123df78c1ed2e9643ff3ddf5ee5748f954fe
 system_ext/etc/init/wfdservice.rc|907def8565d8f91f531ca7dfad880af05d540b0c
@@ -1324,7 +1322,7 @@ system_ext/lib64/libwfduibcsrc.so|5557f3bd58c37b7e3b28e13f2f86d55930b14ab6
 system_ext/lib64/libwfduibcsrcinterface.so|77cead9bf7b60384fe1e11dc2b25bd99af0b4608
 system_ext/priv-app/WfdService/WfdService.apk|0a973eaa3ece61eddc0e1cbef44606edff0209ed
 
-# WiFi Display (vendor)
+# WiFi Display (vendor) - from munch-user 14 RKQ1.211001.001 OS1.0.5.0.ULMMIXM
 vendor/bin/wifidisplayhalservice|f887a8806cf686502a4a0d1929149b470db650f7
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc|c266f08783a17f6583e3f22c85e55b0c200442ea
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|576ce4393b7746b77a230745aa9e9ee3bd31b17d
