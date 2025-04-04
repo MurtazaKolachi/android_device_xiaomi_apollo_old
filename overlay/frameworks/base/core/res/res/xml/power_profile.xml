@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="ambient.on">0.1</item>
+    <item name="none">0</item>
     <item name="screen.on.display0">62.66</item>
     <item name="screen.full.display0">503.67</item>
     <item name="bluetooth.active">17.85</item>
@@ -155,7 +155,8 @@
     <item name="wifi.controller.idle">0</item>
     <item name="wifi.controller.rx">0</item>
     <item name="wifi.controller.tx">0</item>
-    <array name="wifi.controller.tx_levels" />
+    <array name="wifi.controller.tx_levels">
+    </array>
     <item name="wifi.controller.voltage">0</item>
     <array name="wifi.batchedscan">
         <value>.0002</value>

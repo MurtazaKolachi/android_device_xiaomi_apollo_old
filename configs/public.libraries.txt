@@ -57,4 +57,3 @@ libEGL.so
 libmiai_deblur.so 64
 libbeauty_face_interface.so 64
 libmiai_portraitsupernight.so 64
-
